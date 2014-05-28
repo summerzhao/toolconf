@@ -78,9 +78,9 @@
 	reh = reset --hard
 	rem = reset --mixed
 	res = reset --soft
-	rehh = reset --hard HEAD
-	remh = reset --mixed HEAD
-	resh = reset --soft HEAD
+	rehh = reset --hard HEAD^
+	remh = reset --mixed HEAD^
+	resh = reset --soft HEAD^
 	#############
 	r = remote
 	ra = remote add
